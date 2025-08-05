@@ -1,5 +1,4 @@
 from pprint import pprint
-import random
 
 def burbujear(lista : list[int]):
     print('--------------------------------------')
