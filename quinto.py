@@ -1,3 +1,8 @@
+'''
+ESTE CÓDIGO ES DE ANA PAULA MENDOZA DÍAZ
+ES MÍO
+'''
+
 from pprint import pprint
 
 def burbujear(lista : list[int]):

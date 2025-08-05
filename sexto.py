@@ -1,3 +1,8 @@
+'''
+ESTE CÓDIGO ES DE ANA PAULA MENDOZA DÍAZ
+ES MÍO
+'''
+
 from collections import Counter
 from pprint import pprint
 

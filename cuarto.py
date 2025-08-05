@@ -1,3 +1,8 @@
+'''
+ESTE CÓDIGO ES DE ANA PAULA MENDOZA DÍAZ
+ES MÍO
+'''
+
 def encontrar(lista : list, codigo : str): 
     print('-----------------------------------')
     j = len(lista) - 1
