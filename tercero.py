@@ -69,8 +69,8 @@ def recursor(numero : int):
         print('El valor está en un formato no entero')
 
 def main(): 
-    bucle(0)
-    recursor(0)
+    bucle(10)
+    recursor(10)
 
 if __name__ == '__main__': 
     main()
