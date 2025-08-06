@@ -8,7 +8,9 @@ def llegar(matriz : list[list[int]]):
     final_y = len(matriz) - 1
     final_x = len(matriz[0]) - 1
     # tabu.append((inicio[1], inicio[0]))
+    pasos = 0
     for _ in range(len(matriz) * len(matriz[0])): 
+        pasos += 1
         x = inicio[0]
         y = inicio[1]
         for cada in direcciones: 
@@ -33,7 +35,7 @@ def llegar(matriz : list[list[int]]):
                 camino.append(cada)
                 inicio[0] = x
                 inicio[1] = y
-                print((y, x))
+                # print((y, x)) 
                 break
         # if x == inicio[0] and y == inicio[1]:
         #     try:  
@@ -67,8 +69,9 @@ def llegar(matriz : list[list[int]]):
     if coordenadas[-1] != (final_y, final_x): 
         print('No se pudo conseguir un camino al final')
         return
-    print(tabu)
-    print(coordenadas)
+    # print(tabu)
+    # print(coordenadas)
+    print(f'Ruta encontrada en {pasos} pasos')
     print(camino)
 
 def main(): 
